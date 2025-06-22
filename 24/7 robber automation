@@ -1,0 +1,300 @@
+!DOCTYPE html>
+html lang="en">
+head>
+    meta charset="UTF-8">
+    meta name="viewport" content="width=device-width, initial-scale=1.0">
+    title>Zero-Cost AI Passive Income Blueprint/title>
+    script src="https://cdn.tailwindcss.com">/script>
+    link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .step-number {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: #6e8efb;
+            color: white;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+        .tooltip {
+            position: relative;
+            display: inline-block;
+        }
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -100px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+    /style>
+/head>
+body class="bg-gray-50">
+    header class="gradient-bg text-white py-16 px-4 sm:px-6 lg:px-8">
+        div class="max-w-4xl mx-auto text-center">
+            h1 class="text-4xl font-bold mb-4">AI-Powered Passive Income Blueprint/h1>
+            p class="text-xl mb-8">Build a 24/7 Money-Making Machine with Zero Startup Costs/p>
+            div class="flex flex-wrap justify-center gap-4">
+                span class="bg-white bg-opacity-20 px-4 py-2 rounded-full">No Coding Required/span>
+                span class="bg-white bg-opacity-20 px-4 py-2 rounded-full">Free Tools Only/span>
+                span class="bg-white bg-opacity-20 px-4 py-2 rounded-full">AI Automation/span>
+            /div>
+        /div>
+    /header>
+
+    main class="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        section class="mb-16">
+            h2 class="text-3xl font-bold mb-6 text-gray-800">Why This Works in 2024/h2>
+            div class="grid md:grid-cols-3 gap-6">
+                div class="bg-white p-6 rounded-lg shadow-md card-hover transition duration-300">
+                    div class="text-blue-500 mb-4 text-3xl">i class="fas fa-brain">/i>/div>
+                    h3 class="text-xl font-semibold mb-2">AI Maturity/h3>
+                    p class="text-gray-600">Today's AI tools can handle complex tasks that previously required expensive developers./p>
+                /div>
+                div class="bg-white p-6 rounded-lg shadow-md card-hover transition duration-300">
+                    div class="text-green-500 mb-4 text-3xl">i class="fas fa-robot">/i>/div>
+                    h3 class="text-xl font-semibold mb-2">Automation Stack/h3>
+                    p class="text-gray-600">Free automation tools can connect different services without any coding./p>
+                /div>
+                div class="bg-white p-6 rounded-lg shadow-md card-hover transition duration-300">
+                    div class="text-purple-500 mb-4 text-3xl">i class="fas fa-globe">/i>/div>
+                    h3 class="text-xl font-semibold mb-2">Global Reach/h3>
+                    p class="text-gray-600">Digital products can be sold worldwide while you sleep./p>
+                /div>
+            /div>
+        /section>
+
+        section class="mb-16">
+            h2 class="text-3xl font-bold mb-8 text-gray-800">The 7-Step Blueprint/h2>
+            
+            div class="space-y-8">
+                !-- Step 1 -->
+                div class="bg-white p-6 rounded-lg shadow-md card-hover transition duration-300">
+                    div class="flex items-start mb-4">
+                        div class="step-number">1/div>
+                        h3 class="text-xl font-semibold text-gray-800">Choose Your Niche/h3>
+                    /div>
+                    div class="pl-16">
+                        p class="mb-4 text-gray-600">Select a profitable niche with low competition but high demand:/p>
+                        ul class="list-disc pl-5 mb-4 text-gray-600 space-y-2">
+                            li>span class="font-medium">AI Art Prompts/span> - Sell collections of prompts for Midjourney/Stable Diffusion/li>
+                            li>span class="font-medium">Automated Content/span> - Create SEO-optimized blog posts with AI/li>
+                            li>span class="font-medium">Chatbot Templates/span> - Pre-built chatbot flows for businesses/li>
+                        /ul>
+                        div class="bg-blue-50 p-4 rounded-lg">
+                            p class="text-blue-800 font-medium mb-2">Pro Tip:/p>
+                            p class="text-blue-700">Use span class="font-medium">Google Trends/span> and span class="font-medium">AnswerThePublic/span> to validate demand./p>
+                        /div>
+                    /div>
+                /div>
+
+                !-- Step 2 -->
+                div class="bg-white p-6 rounded-lg shadow-md card-hover transition duration-300">
+                    div class="flex items-start mb-4">
+                        div class="step-number">2/div>
+                        h3 class="text-xl font-semibold text-gray-800">Create Digital Products with AI/h3>
+                    /div>
+                    div class="pl-16">
+                        p class="mb-4 text-gray-600">Use free AI tools to create valuable assets:/p>
+                        div class="grid md:grid-cols-2 gap-4 mb-4">
+                            div class="border border-gray-200 rounded-lg p-4">
+                                h4 class="font-medium mb-2">For AI Art Prompts:/h4>
+                                ul class="list-disc pl-5 text-gray-600 space-y-1">
+                                    li>Use ChatGPT to generate 100+ unique prompts/li>
+                                    li>Organize by style (cyberpunk, fantasy, etc.)/li>
+                                    li>Bundle into PDFs with Canva/li>
+                                /ul>
+                            /div>
+                            div class="border border-gray-200 rounded-lg p-4">
+                                h4 class="font-medium mb-2">For Content Creation:/h4>
+                                ul class="list-disc pl-5 text-gray-600 space-y-1">
+                                    li>Use Claude AI for long-form articles/li>
+                                    li>Generate 10 variations of each piece/li>
+                                    li>Add royalty-free images from Unsplash/li>
+                                /ul>
+                            /div>
+                        /div>
+                        div class="bg-yellow-50 p-4 rounded-lg">
+                            p class="text-yellow-800 font-medium mb-2">Free Tools:/p>
+                            div class="flex flex-wrap gap-2">
+                                a href="https://chat.openai.com" class="bg-white px-3 py-1 rounded-full text-sm shadow-sm">ChatGPT/a>
+                                a href="https://claude.ai" class="bg-white px-3 py-1 rounded-full text-sm shadow-sm">Claude AI/a>
+                                a href="https://www.canva.com" class="bg-white px-3 py-1 rounded-full text-sm shadow-sm">Canva/a>
+                                a href="https://unsplash.com" class="bg-white px-3 py-1 rounded-full text-sm shadow-sm">Unsplash/a>
+                            /div>
+                        /div>
+                    /div>
+                /div>
+
+                !-- Step 3 -->
+                div class="bg-white p-6 rounded-lg shadow-md card-hover transition duration-300">
+                    div class="flex items-start mb-4">
+                        div class="step-number">3/div>
+                        h3 class="text-xl font-semibold text-gray-800">Set Up Your Storefront/h3>
+                    /div>
+                    div class="pl-16">
+                        p class="mb-4 text-gray-600">Zero-cost platforms to sell your digital products:/p>
+                        div class="grid md:grid-cols-3 gap-4 mb-4">
+                            div class="border border-gray-200 rounded-lg p-4 text-center">
+                                div class="text-4xl text-orange-500 mb-2">i class="fas fa-store">/i>/div>
+                                h4 class="font-medium mb-1">Gumroad/h4>
+                                p class="text-sm text-gray-600">Free for basic account, handles payments and delivery/p>
+                            /div>
+                            div class="border border-gray-200 rounded-lg p-4 text-center">
+                                div class="text-4xl text-blue-500 mb-2">i class="fab fa-etsy">/i>/div>
+                                h4 class="font-medium mb-1">Etsy/h4>
+                                p class="text-sm text-gray-600">Great for digital art products, existing buyer base/p>
+                            /div>
+                            div class="border border-gray-200 rounded-lg p-4 text-center">
+                                div class="text-4xl text-purple-500 mb-2">i class="fas fa-link">/i>/div>
+                                h4 class="font-medium mb-1">Link in Bio/h4>
+                                p class="text-sm text-gray-600">Use Carrd or Linktree to showcase multiple products/p>
+                            /div>
+                        /div>
+                        div class="bg-green-50 p-4 rounded-lg">
+                            p class="text-green-800 font-medium mb-2">Automation Setup:/p>
+                            p class="text-green-700">Connect your store to span class="font-medium">Zapier/span> (free tier) to automatically email products to customers./p>
+                        /div>
+                    /div>
+                /div>
+
+                !-- Step 4 -->
+                div class="bg-white p-6 rounded-lg shadow-md card-hover transition duration-300">
+                    div class="flex items-start mb-4">
+                        div class="step-number">4/div>
+                        h3 class="text-xl font-semibold text-gray-800">Automate Marketing/h3>
+                    /div>
+                    div class="pl-16">
+                        p class="mb-4 text-gray-600">Set up systems that bring customers without daily work:/p>
+                        div class="space-y-4 mb-4">
+                            div>
+                                h4 class="font-medium mb-1">Content Repurposing/h4>
+                                p class="text-gray-600 text-sm">Use ChatGPT to turn one long article into:/p>
+                                div class="flex flex-wrap gap-2 mt-2">
+                                    span class="bg-gray-100 px-2 py-1 rounded text-xs">10 Tweets/span>
+                                    span class="bg-gray-100 px-2 py-1 rounded text-xs">5 LinkedIn Posts/span>
+                                    span class="bg-gray-100 px-2 py-1 rounded text-xs">3 Pinterest Pins/span>
+                                    span class="bg-gray-100 px-2 py-1 rounded text-xs">1 YouTube Script/span>
+                                /div>
+                            /div>
+                            div>
+                                h4 class="font-medium mb-1">Scheduling Tools/h4>
+                                div class="flex flex-wrap gap-2">
+                                    a href="https://buffer.com" class="bg-gray-100 px-3 py-1 rounded-full text-sm">Buffer/a>
+                                    a href="https://later.com" class="bg-gray-100 px-3 py-1 rounded-full text-sm">Later/a>
+                                    a href="https://publer.io" class="bg-gray-100 px-3 py-1 rounded-full text-sm">Publer/a>
+                                /div>
+                                p class="text-gray-600 text-sm mt-2">All have free plans for basic scheduling/p>
+                            /div>
+                        /div>
+                        div class="bg-purple-50 p-4 rounded-lg">
+                            p class="text-purple-800 font-medium mb-2">AI Assistant:/p>
+                            p class="text-purple-700">Set up span class="font-medium">ChatGPT Custom Instructions/span> to maintain consistent brand voice across all content./p>
+                        /div>
+                    /div>
+                /div>
+
+                !-- Step 5 -->
+                div class="bg-white p-6 rounded-lg shadow-md card-hover transition duration-300">
+                    div class="flex items-start mb-4">
+                        div class="step-number">5/div>
+                        h3 class="text-xl font-semibold text-gray-800">Implement Upsells/h3>
+                    /div>
+                    div class="pl-16">
+                        p class="mb-4 text-gray-600">Increase revenue from each customer automatically:/p>
+                        div class="grid md:grid-cols-2 gap-4 mb-4">
+                            div class="border border-gray-200 rounded-lg p-4">
+                                h4 class="font-medium mb-2">Digital Product Bundles/h4>
+                                ul class="list-disc pl-5 text-gray-600 space-y-1">
+                                    li>Offer "Starter Pack" and "Pro Bundle"/li>
+                                    li>Use Gumroad's built-in upsell features/li>
+                                    li>Price bundles at 3x single product price/li>
+                                /ul>
+                            /div>
+                            div class="border border-gray-200 rounded-lg p-4">
+                                h4 class="font-medium mb-2">Membership Option/h4>
+                                ul class="list-disc pl-5 text-gray-600 space-y-1">
+                                    li>Monthly content drops (AI-generated)/li>
+                                    li>Use Patreon or Gumroad Memberships/li>
+                                    li>Automate delivery with Zapier/li>
+                                /ul>
+                            /div>
+                        /div>
+                        div class="bg-pink-50 p-4 rounded-lg">
+                            p class="text-pink-800 font-medium mb-2">Conversion Tip:/p>
+                            p class="text-pink-700">Add span class="font-medium">"Most Popular"/span> badge to your mid-tier offer to increase conversions./p>
+                        /div>
+                    /div>
+                /div>
+
+                !-- Step 6 -->
+                div class="bg-white p-6 rounded-lg shadow-md card-hover transition duration-300">
+                    div class="flex items-start mb-4">
+                        div class="step-number">6/div>
+                        h3 class="text-xl font-semibold text-gray-800">Scale with AI Assistants/h3>
+                    /div>
+                    div class="pl-16">
+                        p class="mb-4 text-gray-600">Delegate tasks to AI to handle growth:/p>
+                        div class="space-y-4">
+                            div class="flex items-start">
+                                div class="bg-blue-100 p-2 rounded-lg mr-4">
+                                    i class="fas fa-comments text-blue-500">/i>
+                                /div>
+                                div>
+                                    h4 class="font-medium">Customer Support/h4>
+                                    p class="text-gray-600 text-sm">Set up a ChatGPT-powered chatbot using span class="font-medium">Botpress/span> (free tier)/p>
+                                /div>
+                            /div>
+                            div class="flex items-start">
+                                div class="bg-green-100 p-2 rounded-lg mr-4">
+                                    i class="fas fa-chart-line text-green-500">/i>
+                                /div>
+                                div>
+                                    h4 class="font-medium">Analytics/h4>
+                                    p class="text-gray-600 text-sm">Use span class="font-medium">Google Data Studio/span> with AI insights from your store data/p>
+                                /div>
+                            /div>
+                            div class="flex items-start">
+                                div class="bg-purple-100 p-2 rounded-lg mr-4">
+                                    i class="fas fa-sync-alt text-purple-500">/i>
+                                /div>
+                                div>
+                                    h4 class="font-medium">Content Refresh/h4>
+                                    p class="text-gray-600 text-sm">Schedule monthly AI updates to your best-selling products/p>
+                                /div>
+                            /div>
+                        /div>
+                    /div>
+                /div>
+
+                !-- Step 7 -->
+                div class="bg-white p-6 rounded-lg shadow-md card-hover transition duration-300">
+                    div class="flex items-start mb-4">
+                        div class="step-number">7/div>
+                        h3 class="text-xl font-semibold text-gray-800">Reinvest & Expand/h3>
+                    /div>
+                    div class="pl-16">
+                        p class="mb-4 text-gray-600">Use initial profits to grow without increasing
