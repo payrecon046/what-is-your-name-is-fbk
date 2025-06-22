@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Implementation Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .terminal {
+            background-color: #1e1e1e;
+            color: #f0f0f0;
+            font-family: monospace;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+        .command {
+            color: #4fd9f6;
+        }
+        .comment {
+            color: #6a9955;
+        }
+        .step-number {
+            background-color: #6e8efb;
+            color: white;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <h1 class="text-3xl font-bold mb-8 text-gray-800">How to Implement on GitHub</h1>
+        
+        <!-- Step 1 -->
+        <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+            <div class="flex items-center mb-4">
+                <div class="step-number">1</div>
+                <h2 class="text-xl font-semibold">Create a New Repository</h2>
+            </div>
+            <div class="pl-16">
+                <p class="mb-4 text-gray-600">Go to your GitHub account and create a new repository:</p>
+                <div class="terminal">
+                    <span class="comment"># Click the '+' in top-right and select 'New repository'</span><br>
+                    <span class="comment"># Name it something like 'passive-income-guide'</span><br>
+                    <span class="comment"># Make it PUBLIC (required for GitHub Pages)</span><br>
+                    <span class="comment"># Check 'Add a README file'</span>
+                </div>
+                <img src="https://docs.github.com/assets/cb-11427/images/help/repository/repo-create.png" alt="Create repository screenshot" class="mt-4 rounded-lg border border-gray-200">
+            </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+            <div class="flex items-center mb-4">
+                <div class="step-number">2</div>
+                <h2 class="text-xl font-semibold">Upload Your HTML File</h2>
+            </div>
+            <div class="pl-16">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <p class="mb-4 text-gray-600">Method A: Web Interface</p>
+                        <ol class="list-decimal pl-5 space-y-2 text-gray-600">
+                            <li>Go to your new repository</li>
+                            <li>Click 'Add file' → 'Upload files'</li>
+                            <li>Name it <span class="font-mono">index.html</span></li>
+                            <li>Paste the code from window</li>
+                            <li>Commit changes</li>
+                        </ol>
+                    </div>
+                    <div>
+                        <p class="mb-4 text-gray-600">Method B: Git Commands</p>
+                        <div class="terminal">
+                            <span class="comment"># Clone your repository</span><br>
+                            <span class="command">git clone https://github.com/yourusername/passive-income-guide.git</span><br><br>
+                            
+                            <span class="comment"># Create index.html file</span><br>
+                            <span class="command">cd passive-income-guide</span><br>
+                            <span class="command">touch index.html</span><br><br>
+                            
+                            <span class="comment"># Paste the code into the file and save</span><br>
+                            <span class="command">git add .</span><br>
+                            <span class="command">git commit -m "Add passive income guide"</span><br>
+                            <span class="command">git push</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+            <div class="flex items-center mb-4">
+                <div class="step-number">3</div>
+                <h2 class="text-xl font-semibold">Enable GitHub Pages</h2>
+            </div>
+            <div class="pl-16">
+                <p class="mb-4 text-gray-600">Set up GitHub Pages to host your website:</p>
+                <ol class="list-decimal pl-5 space-y-2 text-gray-600 mb-4">
+                    <li>Go to your repository Settings</li>
+                    <li>Click 'Pages' in the left sidebar</li>
+                    <li>Under 'Source', select 'Deploy from a branch'</li>
+                    <li>Choose 'main' branch and '/ (root)' folder</li>
+                    <li>Click 'Save'</li>
+                </ol>
+                <div class="bg-blue-50 p-4 rounded-lg">
+                    <p class="text-blue-800 font-medium">Your site will be available at:</p>
+                    <p class="text-blue-600 font-mono">https://yourusername.github.io/passive-income-guide</p>
+                    <p class="text-blue-800 text-sm mt-2">(May take up to 5 minutes to deploy)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+            <div class="flex items-center mb-4">
+                <div class="step-number">4</div>
+                <h2 class="text-xl font-semibold">Optional: Custom Domain</h2>
+            </div>
+            <div class="pl-16">
+                <p class="mb-4 text-gray-600">If you want a custom domain (like yourname.com):</p>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-medium mb-2">1. Buy a domain</h3>
+                        <ul class="text-gray-600 text-sm space-y-1">
+                            <li>Namecheap ($5-10/year)</li>
+                            <li>Google Domains</li>
+                            <li>Cloudflare</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-medium mb-2">2. Configure DNS</h3>
+                        <div class="terminal text-sm">
+                            <span class="comment"># Add CNAME file to repo containing your domain</span><br>
+                            <span class="command">echo "yourdomain.com" > CNAME</span><br>
+                            <span class="command">git add . && git commit -m "Add CNAME" && git push</span><br><br>
+                            <span class="comment"># Set DNS records at your registrar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-green-50 p-6 rounded-lg">
+            <h2 class="text-xl font-semibold mb-4 text-green-800">✅ Success!</h2>
+            <p class="mb-4 text-green-700">You now have a fully hosted passive income guide website on GitHub Pages. You can:</p>
+            <ul class="list-disc pl-5 text-green-700 space-y-2">
+                <li>Share the GitHub Pages link </li>
+                <li>Continue editing by pushing changes</li>
+                <li>Add more pages by creating additional HTML files</li>
+            </ul>
+            <div class="mt-6">
+                <a href="#" class="bg-green-600 text-white px-6 py-2 rounded-lg inline-block hover:bg-green-700 transition">
+                    Back to Passive Income Guide
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
