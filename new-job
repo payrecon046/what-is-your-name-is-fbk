@@ -1,0 +1,14 @@
+career_buddy_gpt/
+│
+├── main.py
+├── README.md
+├── requirements.txt
+└── demo_tasks/
+    ├── candidacy_review.py
+    ├── resume_review.py
+    ├── linkedin_review.py
+    ├── meeting_prep.py
+    ├── cover_letter.py
+    ├── mock_interview.py
+    ├── networking_message.py
+    └── career_guidance.py
